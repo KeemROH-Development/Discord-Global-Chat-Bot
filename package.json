@@ -1,0 +1,18 @@
+{
+  "name": "Global-Chat",
+  "version": "1.0.0",
+  "description": "Discord Chat Bot",
+  "main": "node.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "12.x",
+    "fs": "^0.0.2",
+    "quick.db": "^7.1.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "license": "MIT"
+}
