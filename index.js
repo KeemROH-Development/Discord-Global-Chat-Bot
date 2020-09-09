@@ -38,7 +38,7 @@ client.on("message", async message => {
     const embed = new Discord.MessageEmbed()
       .setTitle("Username: " + message.author.tag)
       .addField("Message:", message.content)
-      .setFooter(`Server: ${message.guild.name} || Members: ${message.guild.memberCount}`).then(message.delete());
+      .setFooter(`Server: ${message.guild.name} || Members: ${message.guild.memberCount}`);
     client.guilds.cache.forEach(g => {
       try {
         client.channels.cache.get(db.fetch(`g_${g.id}`)).send(embed);
