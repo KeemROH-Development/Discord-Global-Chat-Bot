@@ -1,5 +1,4 @@
 {
-"token":"token goes here",
-"prefix": "!"
-  
+    "token": "token goes here",
+    "prefix": "!"
 }

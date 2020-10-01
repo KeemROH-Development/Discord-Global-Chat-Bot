@@ -8,7 +8,6 @@
   },
   "dependencies": {
     "discord.js": "12.x",
-    "fs": "^0.0.2",
     "quick.db": "^7.1.1"
   },
   "engines": {
